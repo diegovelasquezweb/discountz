@@ -1,0 +1,21 @@
+query RunInput {
+  # Fetching details about the cart
+  cart {
+    lines {
+      quantity
+      merchandise {
+        __typename
+        # If the merchandise is a ProductVariant, get its ID
+        ...on ProductVariant {
+          id
+        }
+      }
+    }
+  }
+  # Fetching a specific metafield from the discountNode
+  discountNode {
+    metafield(namespace: "$app:volume-discount", key: "function-configuration") {
+      value
+    }
+  }
+}

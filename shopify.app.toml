@@ -1,0 +1,27 @@
+# Learn more about configuring your app at https://shopify.dev/docs/apps/tools/cli/configuration
+
+client_id = "73768b5aab379d9a04139a99c77f7557"
+name = "Discountz"
+application_url = "https://marking-gloves-attachments-mathematics.trycloudflare.com"
+embedded = true
+
+[build]
+automatically_update_urls_on_dev = true
+dev_store_url = "diegocheckout.myshopify.com"
+
+[access_scopes]
+# Learn more at https://shopify.dev/docs/apps/tools/cli/configuration#access_scopes
+scopes = "write_products, write_discounts"
+
+[auth]
+redirect_urls = [
+  "https://marking-gloves-attachments-mathematics.trycloudflare.com/auth/callback",
+  "https://marking-gloves-attachments-mathematics.trycloudflare.com/auth/shopify/callback",
+  "https://marking-gloves-attachments-mathematics.trycloudflare.com/api/auth/callback"
+]
+
+[webhooks]
+api_version = "2024-01"
+
+[pos]
+embedded = false
