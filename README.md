@@ -4,7 +4,7 @@
 
 Follow these steps to add a new discount extension to Discountz app:
 
-1. **Create a New Extension**: Run the command `npm run shopify app generate extension -- --template product_discounts` to create a new extension.
+1. **Create a New Extension**: Run the command `npm run shopify app generate extension --template product_discounts` to create a new extension.
 
 2. **Define the Function Target**: Specify the input for your function target in the `run.graphql` file.
 

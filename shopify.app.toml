@@ -2,7 +2,7 @@
 
 client_id = "73768b5aab379d9a04139a99c77f7557"
 name = "Discountz"
-application_url = "https://marking-gloves-attachments-mathematics.trycloudflare.com"
+application_url = "https://trips-board-visitors-second.trycloudflare.com"
 embedded = true
 
 [build]
@@ -15,9 +15,9 @@ scopes = "write_products, write_discounts"
 
 [auth]
 redirect_urls = [
-  "https://marking-gloves-attachments-mathematics.trycloudflare.com/auth/callback",
-  "https://marking-gloves-attachments-mathematics.trycloudflare.com/auth/shopify/callback",
-  "https://marking-gloves-attachments-mathematics.trycloudflare.com/api/auth/callback"
+  "https://trips-board-visitors-second.trycloudflare.com/auth/callback",
+  "https://trips-board-visitors-second.trycloudflare.com/auth/shopify/callback",
+  "https://trips-board-visitors-second.trycloudflare.com/api/auth/callback"
 ]
 
 [webhooks]

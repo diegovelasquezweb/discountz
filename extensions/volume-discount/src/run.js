@@ -1,5 +1,3 @@
-import { DiscountApplicationStrategy } from "../generated/api";
-
 // Default discount object
 const EMPTY_DISCOUNT = {
   discountApplicationStrategy: DiscountApplicationStrategy.First,
